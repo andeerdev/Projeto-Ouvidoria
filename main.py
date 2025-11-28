@@ -58,12 +58,8 @@ def ocorrencia():
             usuario = usuario_base
             descricao = input("Descreva sua denúncia: ").strip()
             anon = input("Deseja anonimato? (s/n): ").strip().lower() == "s"
-            if anon == 's':
-                anon = True
-            else:
-                anon = False
             denuncia = Denuncia(data, hora, endereco, usuario, descricao, anon)
-            print(denuncia.registleorar_denuncia())
+            print(denuncia.registrar_denuncia())
 
         else:
             print("Opção inválida.")
@@ -72,7 +68,6 @@ def ocorrencia():
 
 
 if __name__ == "__main__":
-    # Pergunta se o usuário deseja usar a interface gráfica (GUI) ou a interface de texto (CLI).
     escolha_interacao = input("Deseja abrir a interface gráfica? (s/n): ").strip().lower()
     if escolha_interacao == "s":
         try:

@@ -41,6 +41,6 @@
 ---
 
 Feito por:
-Anderson Freitas - afreitas@unisantos.br
-Leonardo Mastros - leonardomastros@unisantos.br
+Anderson Freitas - afreitas@unisantos.br  
+Leonardo Mastros - leonardomastros@unisantos.br  
 Lucas Farah - farah@unisantos.br
